@@ -17,17 +17,27 @@
       href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,500&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="portfolio.css" />
   </head>
   <body>
     <header>
-      <img src="assets/ArpanaSinha.jpg" alt="ProfilePhoto" />
+      <img src="assets/ArpanaSinha.jpg" alt="" />
       <div id="one">
         <p>Arpana Sinha</p>
         <h4 style="font-style: italic">
           Student-Sikkim Manipal Institute Of Technology <br />B.Tech.-Computer
           Science Engineering
         </h4>
+      </div>
+      <div class="connect">
+        <a href="https://github.com/arpanasinha2211"><i style="font-size:40px; border: 6px solid black;
+          border-radius: 1rem;" class="fa">&#xf09b;</i></a>
+        <a href="https://www.linkedin.com/in/arpana-sinha-255900250"><i style="font-size:40px;
+          background-color: white;
+          color: #0072b1;
+          border: 5px solid white;
+          border-radius: 1rem; " class="fa">&#xf08c;</i></a>
       </div>
     </header>
     <main id="container">
@@ -67,7 +77,7 @@
           </p>
         </section><hr class="border-about">
         <section id="education">
-          <h1>Education</h1>
+          <h1>Education</h1><br><br>
           <table>
             <thead>
               <tr>
@@ -98,12 +108,43 @@
         <section id="skills">
           <h1>Skills</h1>
           <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>DBMS</li>
+            <li>C<br>
+              <label for="c"></label>
+              <progress id="c" value="90" max="100"></progress>
+              <!-- <div class="progress">
+                <div class="progressbar">
+                  <span>80% completed</span>
+                </div>
+              </div> -->
+            </li>
+            <li>C++<br>
+              <label for="c++"></label>
+              <progress id="c++" value="80" max="100"></progress>
+            </li>
+            <li>Java<br>
+              <label for="java"></label>
+              <progress id="java" value="70" max="100"></progress>
+            </li>
+            <li>HTML <br>
+              <label for="html"></label>
+              <progress id="html" value="95" max="100"></progress>
+            </li>
+            <li>CSS<br>
+              <label for="css"></label>
+              <progress id="css" value="80" max="100"></progress>
+            </li>
+            <li>DBMS<br>
+              <label for="dbms"></label>
+              <progress id="dbms" value="90" max="100"></progress>
+            </li>
+            <li>MongoDB<br>
+              <label for="mongodb"></label>
+              <progress id="mongodb" value="50" max="100"></progress>
+            </li>
+            <li>DS<br>
+              <label for="ds"></label>
+              <progress id="ds" value="80" max="100"></progress>
+            </li>
           </ul>
         </section><hr class="border-skills">
         <section id="Hobbies">
@@ -140,6 +181,7 @@
         </section>
       </div>
     </main>
+
     <footer class="footer-text">
       &#169;All Rights Reserved
       <div>2023</div>
