@@ -5,9 +5,14 @@ body{
     font-size: 20px;
 }
 body h1{
-    color: rgba(115, 11, 120, 0.516);
+    /* color: rgba(115, 11, 120, 0.516);
     box-shadow: -1px 1px 10px 5px currentColor;
+    display: inline; */
+    color: rgba(115, 11, 120, 0.516);
+    box-shadow: 0px 1px 5px 1px currentColor;
     display: inline;
+    padding: 5px;
+    text-decoration: none;
 
 }
 header{
@@ -111,11 +116,14 @@ th,td{
     padding-bottom: 20px;
 }
 .left li:hover{
-    background-color: mediumvioletred;
+    background-color:mediumvioletred;
 }  
-.left a:hover{
+.left li:hover a{
+    color: white;
+}  
+/* .left a:hover{
  color: white;
-}
+} */
 .right{
     flex: 5;
     color:white;
